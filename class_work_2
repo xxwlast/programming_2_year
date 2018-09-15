@@ -1,0 +1,21 @@
+import math
+import pprint
+
+
+'''vow = 'oa'
+con = 'pth'
+for v in vow:
+    for c in con:
+        print(c + v)'''
+
+'''nouns = 'kochka koshka'
+verb = 'kyshaet meshaet'
+for s in nouns.split():
+    for v in verb.split():
+        for o in nouns.split():
+            print(s+' '+v+' '+o+' ')'''
+vals = [1,2,3,4,5,6,7,8,9,10]
+def mean(vals):
+    return float(sum(vals))/len(vals)if len(vals)> 0 else 'n/a'
+if __name__ == '__main__':
+    print mean([1,2,3,4,5,6,7,8,9])

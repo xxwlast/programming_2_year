@@ -31,10 +31,17 @@ def retrieve_word(lines):
 
 def hide(word):
     hidden = word.replace(word[1:], ' - '*(len(word)-1))
-    return hidden
+    q = print(hidden)
+    return q
+
+def answer(ask):
+    input_letter = input('Введите букву: ')
+    if input_letter == 
+
+    
 
 def main():
-    print(hide(retrieve_word(opening("program1.txt"))))
+    print(answer(hide(retrieve_word(opening("C://Users//student//Desktop//program1.txt")))))
     
 if __name__ == "__main__":
     main()

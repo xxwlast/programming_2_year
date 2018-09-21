@@ -36,7 +36,7 @@ def game(word, hidden_word):
 
     
 def main():
-    print(game('Ховрино','Х -  -  -  -  -  - '))
+    print(game('program1.txt'))
 if __name__ == "__main__":
     main()
     

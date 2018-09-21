@@ -41,7 +41,7 @@ def answer(ask):
     
 
 def main():
-    print(answer(hide(retrieve_word(opening("C://Users//student//Desktop//program1.txt")))))
+    print(answer(hide(retrieve_word(opening("program1.txt")))))
     
 if __name__ == "__main__":
     main()
